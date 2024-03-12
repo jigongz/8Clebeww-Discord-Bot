@@ -38,5 +38,5 @@ Run `node ./index.js`
 - Events
   - Welcomer ( Under Construction )
   - !clear
-  - Temporary Voice Channels ( Under Construction )
+  - Temporary Voice Channels
   

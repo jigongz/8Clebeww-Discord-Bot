@@ -36,7 +36,7 @@ Run `node ./index.js`
     - Kbbi = Search word in Indonesia Dictionary
     - Manga = Search manga
 - Events
-  - Welcomer
+  - Welcomer ( Under Construction )
   - !clear
   - Temporary Voice Channels ( Under Construction )
   

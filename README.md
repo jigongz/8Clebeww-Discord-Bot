@@ -17,11 +17,16 @@ Run `node ./index.js`
     - Gombal = Indonesia flirt message
     - Quote = Send wise quotes
     - Tahukah-Anda = Random Facts
+  - Games
+    - Matchpairs
+    - Minesweeper
+    - Rps = Rock Paper Scissor
+    - Tictactoe
   - Misc
+    - Format = Create url from image or video
     - Help = Help command
     - Ping = Pong!
     - Poll = Poll command
-    - Rps = Rock, Papper, Scissor
   - Moderation
     - Mute = Mute member
     - Reload = Reload slash commands
@@ -33,5 +38,5 @@ Run `node ./index.js`
 - Events
   - Welcomer
   - !clear
-  - Temporary Voice Channel
+  - Temporary Voice Channels ( Under Construction )
   

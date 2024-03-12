@@ -1,0 +1,25 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "axios": "^1.5.0",
+    "canvafy": "^7.0.2",
+    "discord-gamecord": "^4.4.1",
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "kbbi.js": "^1.0.6",
+    "node-fetch": "^3.2.6",
+    "node-schedule": "^2.1.1",
+    "openai": "^4.3.0",
+    "quote-indo": "^1.1.0"
+  }
+}

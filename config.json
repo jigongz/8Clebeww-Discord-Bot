@@ -1,26 +1,26 @@
 {
 
   "bot": {
-    "clientId": "1140636086083801259"
+    "clientId": ""
   },
 
   "Testserver" : {
 
     "moderation": {
-      "AnnouncementId": "1151864957722443886",
-      "defaultRoleId": "1151868314218414100",
-      "mutedId":"1146058917512745140"
+      "AnnouncementId": "",
+      "defaultRoleId": "",
+      "mutedId":""
     },
 
     "Welcomer": {
-      "rulesId": "1151862713706872916",
-      "welcomeId": "1151862713706872915"
+      "rulesId": "",
+      "welcomeId": ""
     },
 
     "Join to Create": {
-      "targetChannelId": "1151865433545244783",
-      "categoryId": "1151865391908405318"
+      "targetChannelId": "",
+      "categoryId": ""
     },
-    "guildId": "1151862713706872913"
+    "guildId": ""
   }
 }

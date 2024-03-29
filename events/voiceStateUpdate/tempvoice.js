@@ -30,8 +30,9 @@ module.exports = {
                 newState.member.voice.setChannel(newChannel);
             }
         } else if (oldState.channel.parentId == category) {
+            if (oldState.channelId == config.Testserver['Join to Create'].targetChannelId) return;
             if (oldState.channel.members.size == 0) {
-                oldState.channel.delete()
+                oldState.channel.delete();
             }
         }
     },

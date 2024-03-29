@@ -22,12 +22,12 @@ module.exports = {
 
         const mutedRole = interaction.guild.roles.cache.find(role => role.name === 'Muted');
 
-if (!mutedRole) {
-    await interaction.followUp("The 'Muted' role does not exist. Please create it.");
-    return;
-}
+        if (!mutedRole) {
+            await interaction.followUp("The 'Muted' role does not exist. Please create it.");
+            return;
+        }
 
-await user.roles.add(mutedRole);
+        await user.roles.add(mutedRole);
 
         const channel = client.channels.cache.get(config.Testserver.moderation.AnnouncementId);
         await channel.send(`${user.tag} has muted \n Reason: ${reason}`);

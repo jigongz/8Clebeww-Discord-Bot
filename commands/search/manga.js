@@ -57,7 +57,7 @@ module.exports = {
         color: 2,
         title: mangaData.title.romaji,
         description: description,
-        image: mangaData.coverImage.large,
+        image: { url : mangaData.coverImage.large},
         fields: [
           { name: 'Chapters', value: chapters, inline: true },
           { name: 'Volumes', value: volumes, inline: true },

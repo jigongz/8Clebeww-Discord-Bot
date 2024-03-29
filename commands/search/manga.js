@@ -53,12 +53,11 @@ module.exports = {
       const startDate = mangaData.startDate?.year?.toString() || 'Unknown';
       const endDate = mangaData.endDate?.year?.toString() || 'Unknown';
 
-      const url = URL.createObjectURL(mangaData.coverImage.large);
       const embed = {
         color: 2,
         title: mangaData.title.romaji,
         description: description,
-        image: url,
+        image: mangaData.coverImage.large,
         fields: [
           { name: 'Chapters', value: chapters, inline: true },
           { name: 'Volumes', value: volumes, inline: true },
